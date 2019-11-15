@@ -44,6 +44,9 @@ int main()
     }
     construct_tree(a,0,0,n-1);
     int val=2*n-1;
+    /*for(int i=0;i<25;i++)
+        cout<<segment_tree[i]<<" ";
+    cout<<endl;*/
     lli qs,qe;
     cin>>qs>>qe;
     lli res = RMQ(0,0,n-1,qs,qe);
